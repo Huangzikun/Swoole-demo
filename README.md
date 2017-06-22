@@ -7,3 +7,4 @@
 * mysql.php  ->  同步MySQL查询，对比异步
 * client_async.php  ->  异步客户端建立demo
 * readfile.php  -> 异步读文件，最大4M
+* writefile.php  ->  异步写文件，如果需要在文件末尾添加需要使用SWOOLE_AIO_BASE模式
