@@ -6,3 +6,4 @@
 * mysql_async.php  ->  异步MySQL查询，运行在http服务端中
 * mysql.php  ->  同步MySQL查询，对比异步
 * client_async.php  ->  异步客户端建立demo
+* readfile.php  -> 异步读文件，最大4M
