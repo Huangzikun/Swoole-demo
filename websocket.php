@@ -16,6 +16,7 @@ class MySocket
     public function onOpen(swoole_websocket_server $server, $request)
     {
         echo "server: handshake success with fd{$request->fd}\n";
+        $this->server->push($request->fd, "data");
     }
 
     public function onMessage(swoole_websocket_server $server, $frame)
